@@ -23,6 +23,8 @@ public class MainActivity extends AppCompatActivity {
     FloatingActionButton add;
     ListView note;
 
+
+
    static ArrayList<String> notes = new ArrayList<>();
    static ArrayAdapter arrayAdapter;
 
@@ -36,6 +38,8 @@ public class MainActivity extends AppCompatActivity {
 
         SharedPreferences sharedPreferences = getApplicationContext().getSharedPreferences("com.console.notes", Context.MODE_PRIVATE);
         HashSet<String> set = (HashSet<String>) sharedPreferences.getStringSet("notes", null);
+
+
 
         if(set == null){
             notes.add("Example note");

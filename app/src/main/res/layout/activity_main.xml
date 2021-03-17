@@ -23,7 +23,7 @@
     android:layout_marginEnd="16dp"
     android:layout_marginBottom="16dp"
     android:id="@+id/add"
-    android:background="#FA0000"
+    android:backgroundTint="#321B88"
     android:src="@drawable/ic_baseline_add_24"
     tools:ignore="MissingConstraints"
     android:layout_marginRight="16dp">
